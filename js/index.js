@@ -103,4 +103,16 @@ const botCont3 =  mainBot[2].querySelector("p");
 botTitle3.textContent = "Vision";
 botCont3.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
+// contact
+
+const contactTitle = contact.querySelector("h4");
+
+contactTitle.textContent = "Contact";
+
+const contactDetails = contact.querySelectorAll("p");
+
+contactDetails[0].innerHTML ='123 Way 456 Street' + '.<br/>' + 'Somewhere, USA';
+contactDetails[1].textContent = "1(888)888-8888";
+contactDetails[2].textContent = "sales@greatidea.io";
+
 
