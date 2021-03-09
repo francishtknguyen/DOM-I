@@ -63,7 +63,7 @@ links[5].textContent = "Contact";
 
 // Creating CTA content
 const ctaTitle = cta.querySelector("h1");
-ctaTitle.textContent = "DOM is Awesome";
+ctaTitle.innerHTML = "DOM"+ '<br/>' +"is"+ '<br/>' +"Awesome";
 ctaButton.textContent = "Get Started";
 ctaImg.src = "img/header-img.png";
 
@@ -111,7 +111,7 @@ contactTitle.textContent = "Contact";
 
 const contactDetails = contact.querySelectorAll("p");
 
-contactDetails[0].innerHTML ='123 Way 456 Street' + '.<br/>' + 'Somewhere, USA';
+contactDetails[0].innerHTML ='123 Way 456 Street' + '<br/>' + 'Somewhere, USA';
 contactDetails[1].textContent = "1(888)888-8888";
 contactDetails[2].textContent = "sales@greatidea.io";
 
