@@ -115,4 +115,24 @@ contactDetails[0].innerHTML ='123 Way 456 Street' + '.<br/>' + 'Somewhere, USA';
 contactDetails[1].textContent = "1(888)888-8888";
 contactDetails[2].textContent = "sales@greatidea.io";
 
+// Updating nav colors
 
+// header.querySelector("nav a").style.color = "green";
+links[0].style.color = "green";
+links[1].style.color = "green";
+links[2].style.color = "green";
+links[3].style.color = "green";
+links[4].style.color = "green";
+links[5].style.color = "green";
+
+const history = document.createElement("a");
+history.textContent = "History";
+history.href = "#";
+history.style.color = "green";
+document.querySelector("nav").appendChild(history);
+
+const home = document.createElement("a");
+home.textContent = "Home";
+home.href = "#";
+home.style.color = "green";
+document.querySelector("nav").prepend(home);
